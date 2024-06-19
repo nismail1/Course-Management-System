@@ -26,6 +26,7 @@ public class App {
 				}
 			}
 		});
+	
 	}
 
 	public App() {
@@ -34,7 +35,7 @@ public class App {
 
 	private void initialize() {
 		frmHeraldCourseManagement = new JFrame();
-		frmHeraldCourseManagement.setTitle("Herald Course Management System");
+		frmHeraldCourseManagement.setTitle("CourseMate Course Management System");
 		frmHeraldCourseManagement.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmHeraldCourseManagement.getContentPane().setLayout(null);
 		frmHeraldCourseManagement.setSize(1480, 720);

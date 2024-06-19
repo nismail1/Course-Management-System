@@ -8,8 +8,11 @@ import java.sql.SQLException;
 public class DatabaseManager {
 	public static DatabaseManager instance;
 	private Connection conn;
-
+	
 	private DatabaseManager(String path, String username, String password) throws SQLException {
+		
+			
+		
 		this.conn = DriverManager.getConnection(path, username, password);
 		System.out.println("Connected to database");
 		createDatabase("course_management_system");
@@ -141,8 +144,16 @@ public class DatabaseManager {
 	}
 
 	public static DatabaseManager getInstance() throws SQLException {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			System.err.println("MySQL JDBC driver not found!");
+			e.printStackTrace();
+			// Handle exception or terminate initialization
+			throw new IllegalStateException("Failed to load MySQL JDBC driver", e);
+		}
 		if (instance == null)
-			instance = new DatabaseManager("jdbc:mysql://localhost:3306", "root", "");
+			instance = new DatabaseManager("jdbc:mysql://localhost:3306/your_database_name", "nismail", "your_password");
 		return instance;
 	}
 
