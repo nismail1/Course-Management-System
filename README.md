@@ -8,14 +8,12 @@ A simple Course Management System implemented using Java Swing and MYSQL databas
 
 ## Screenshots
 
-#### Splash Screen
-<img width="1477" alt="SplashScreen" src="https://user-images.githubusercontent.com/92678280/213867396-45a0cd36-0131-49bd-87da-0ef9aadf9d43.png">
-
 #### Login Page
-<img width="1477" alt="LoginPage" src="https://user-images.githubusercontent.com/92678280/213867397-966ec263-b19d-4614-a702-eb28229ec991.png">
+<img width="1420" alt="Screenshot 2024-06-19 at 10 50 59 PM" src="https://github.com/nismail1/Course-Management-System/assets/41389592/2053fb25-ff12-4413-877c-056ba00e259a">
 
-#### Sign Up Page
-<img width="1477" alt="SignUpPage" src="https://user-images.githubusercontent.com/92678280/213867401-c69870a9-77e0-4cc6-a6c8-6a972686b92a.png">
+
+#### Welcome Page
+<img width="1420" alt="Screenshot 2024-06-19 at 3 05 30 PM" src="https://github.com/nismail1/Course-Management-System/assets/41389592/1bdd19b2-fdf6-4659-8e71-2e737612635f">
 
 
 ## Contributing
